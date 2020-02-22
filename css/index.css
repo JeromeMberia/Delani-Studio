@@ -13,7 +13,7 @@ body h2{
 }
 
 #header{
-  background-image: url(/images/backgrounds/h_img.jpg);
+  background-image: url(../images/backgrounds/h_img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -25,10 +25,16 @@ body h2{
   left: 50%;
 }
 .about{
-  padding: 50 ;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  height: 300px;
 }
 .service{
-  background-image: url(/images/backgrounds/s_image.jpg);
+  background-image: url(../images/backgrounds/s_image.jpg);
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: white;
+  height: 400px;
 }
 .row{
   background-image: contain;
@@ -53,8 +59,8 @@ body h2{
 
 }
 .contact{
-  background-image: url(/images/backgrounds/c_image.jpg);
+  background-image: url(../images/backgrounds/c_image.jpg);
   background-size: cover;
   width: auto;
-  height: 636px;
+  height: 600px;
 }
