@@ -1,0 +1,60 @@
+.container{
+  text-align: center;
+}
+body p{
+  text-align: center;
+}
+
+body h1{
+  text-align: center;
+}
+body h2{
+  text-align: center;
+}
+
+#header{
+  background-image: url(/images/backgrounds/h_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 636px;
+  width: auto;
+  text-align: center;
+  padding-top: 200px;
+  top: 50%;
+  left: 50%;
+}
+.about{
+  padding: 50 ;
+}
+.service{
+  background-image: url(/images/backgrounds/s_image.jpg);
+}
+.row{
+  background-image: contain;
+}
+
+.col{
+  padding: 0;
+}
+.row{
+  text-align: center;
+}
+.media{
+  text-align: center;
+}
+.container{
+  text-align: center;
+}
+.lop .row img{
+  padding-left: 0;
+  padding-right: 0;
+  width: 250px;
+
+}
+.contact{
+  background-image: url(/images/backgrounds/c_image.jpg);
+  background-size: cover;
+  width: auto;
+  height: 636px;
+}
