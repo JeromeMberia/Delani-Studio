@@ -63,4 +63,40 @@ body h2{
   background-size: cover;
   width: auto;
   height: 600px;
+  text-align: center;
+  color: #fff;
+}
+
+#design2{
+  display: none;
+}
+#development2{
+  display: none;
+}
+#product2{
+  display: none;
+}
+.contact{
+  padding-left: 100px;
+  text-align: center;
+}
+.row  input{
+  background: transparent;
+  border-bottom: 1px solid #fff;
+}
+.row  input::placeholder{
+ color: white;
+}
+
+
+.row  textarea{
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+h3{
+  color: #fff;
+}
+::placeholder{
+  color:white;
 }
