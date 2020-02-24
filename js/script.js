@@ -1,3 +1,4 @@
+//frontend
 $(document).ready(function(){
   $("#design").click(function() {
     $(".design-show").toggle();
@@ -16,7 +17,7 @@ $(document).ready(function(){
     $(".product-hide").toggle();
   });
 });
-
+// business logic
 function data() {
   var name = document.getElementById("name").value;
   var email = document.getElementById("email").value;
