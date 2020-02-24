@@ -1,18 +1,36 @@
 $(document).ready(function(){
-  $("p").click(function() {
-    $("#design1").toggle();
-    $("#design2").toggle();
+  $("#design").click(function() {
+    $(".design-show").toggle();
+    $(".design-hide").toggle();
   });
 });
 $(document).ready(function(){
-  $("p").click(function() {
-    $("#development1").toggle();
-    $("#development2").toggle();
+  $("#dev").click(function() {
+    $(".dev-show").toggle();
+    $(".dev-hide").toggle();
   });
 });
 $(document).ready(function(){
-  $("p").click(function() {
-    $("#product1").toggle();
-    $("#product2").toggle();
+  $("#product").click(function() {
+    $(".product-show").toggle();
+    $(".product-hide").toggle();
   });
 });
+
+function data() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+  
+  
+ 
+  if (name === ''){
+    alert("Please input the correct month")
+  } else if (email === ''){
+    alert("Please input the correct month")
+  }else if ( message === ''){
+    alert("Please input the correct month")
+  } else {
+      alert(name + " we have received your message. Thank you for reaching out to us. ")
+  };
+};
