@@ -11,8 +11,8 @@ This is wed application that showcases our portfolios. Each portfolio has its re
 * Bootstrap
 
 # Dependencies
-### Internet
-### Your favorite Browser
+### * Internet
+### * Your favorite Browser
 
 # How to setup the web application
 Open your termnal
