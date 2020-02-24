@@ -1,0 +1,36 @@
+$(document).ready(function(){
+  $("#design").click(function() {
+    $(".design-show").toggle();
+    $(".design-hide").toggle();
+  });
+});
+$(document).ready(function(){
+  $("#dev").click(function() {
+    $(".dev-show").toggle();
+    $(".dev-hide").toggle();
+  });
+});
+$(document).ready(function(){
+  $("#product").click(function() {
+    $(".product-show").toggle();
+    $(".product-hide").toggle();
+  });
+});
+
+function data() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+  
+  
+ 
+  if (name === ''){
+    alert("Please input the correct month")
+  } else if (email === ''){
+    alert("Please input the correct month")
+  }else if ( message === ''){
+    alert("Please input the correct month")
+  } else {
+      alert(name + " we have received your message. Thank you fro reaching out to us. ")
+  };
+};
