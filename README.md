@@ -3,6 +3,8 @@ This is wed application that showcases our portfolios. Each portfolio has its re
 
 # By Jerome Mberia
 
+![](images/backgrounds/Screenshot from 2020-02-24 23-05-50.png)
+
 # The Technology used
 * html
 * Markdown 
@@ -20,7 +22,7 @@ Open your termnal
 >$git clone [url]
 
 # Licence
-
+[MIT License](https://github.com/JeromeMberia/Delani-Studio/blob/master/License)
 
 
 
