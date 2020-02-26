@@ -26,11 +26,9 @@ function data() {
   
  
   if (name === ''){
-    alert("Please input the correct month")
+    alert("Please input the name")
   } else if (email === ''){
-    alert("Please input the correct month")
-  }else if ( message === ''){
-    alert("Please input the correct month")
+    alert("Please input the email")
   } else {
       alert(name + " we have received your message. Thank you for reaching out to us. ")
   };
